@@ -42,6 +42,30 @@ This repository is a compilation of essential concepts and topics to help you pr
     Most of the times people end up using `div with class "header"` instead of `<header>` element itself. This approach won't follow the semantics of HTML markup. By using these semantic elements appropriately, developers can create a more meaningful and well-structured document, making it easier to understand and maintain.
 
 - HTML5 features
+    - Support for Multimedia
+    With HTML5 we can easily add support for audio and video.
+
+    - Semantic Elements
+    `<header>`, `<nav>`, `<article>`, `<section>`, `<aside>`, and `<footer>`: These elements provide more semantic meaning to the structure of a web page.
+
+    - Canvas
+    This element provides a drawing surface that allows developers to create dynamic graphics, animations, and other visualizations using JavaScript.
+
+    - New Form Input Types and Attributes:
+    `<input>` with types such as email, url, tel, number, and date: These input types make it easier to capture specific types of user data, and attributes like placeholder provide additional information.
+
+    - Local Storage:
+    localStorage and sessionStorage: These APIs allow developers to store data on the client side, persisting information even when the user closes the browser.
+
+    - Drag and Drop:
+    HTML5 introduced native support for drag-and-drop functionality, making it easier for users to interact with elements on a web page.
+
+    - Responsive Design Support:
+    HTML5 includes features that facilitate responsive web design, such as the `<meta>` viewport tag for controlling the viewport on mobile devices.
+
+    - WebSockets:
+    WebSockets provide a full-duplex communication channel over a single, long-lived connection, enabling real-time communication between a client and a server.
+
 - Accessibility
 - Forms and input elements
 - Data attributes

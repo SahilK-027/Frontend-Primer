@@ -24,6 +24,23 @@ This repository is a compilation of essential concepts and topics to help you pr
 ## HTML
 
 - Semantic HTML
+    Semantic HTML (HyperText Markup Language) refers to the use of HTML markup to convey the meaning or structure of the content on a web page, rather than just its presentation. In other words, semantic HTML is about using HTML tags in a way that reflects the meaning and purpose of the content they enclose.
+
+    Advantages of semantic HTML:
+    - Semantic HTML helps improve the accessibility, search engine optimization (SEO), and overall structure of a web page. 
+    - It makes it easier for both humans and machines (such as search engines or screen readers) to understand the content and its context.
+
+    Here are some examples of semantic HTML elements:
+    ```html
+        - <header>: Represents the header of a section or a page.
+        - <nav>: Represents a navigation menu.
+        - <article>: Represents a self-contained piece of content that could be distributed and reused independently.
+        - <section>: Represents a thematic grouping of content, typically with a heading.
+        - <aside>: Represents content that is tangentially related to the content around it, like a sidebar.
+        - <footer>: Represents the footer of a section or a page.
+    ```
+    Most of the times people end up using `div with class "header"` instead of `<header>` element itself. This approach won't follow the semantics of HTML markup. By using these semantic elements appropriately, developers can create a more meaningful and well-structured document, making it easier to understand and maintain.
+
 - HTML5 features
 - Accessibility
 - Forms and input elements
